@@ -2,25 +2,26 @@
 
 ---
 
-<nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+<nav class="fixed top-0 w-full bg-white z-50 border-b border-gray-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-20">
       <div class="flex items-center">
-        <a href="/" class="text-2xl font-bold text-[#2EA2A1]" style="font-family: var(--font-family-heading)">
-          Vsingleton Consulting
+        <a href="/" class="text-xl font-bold" style="font-family: var(--font-family-heading)">
+          <span class="text-gray-900">Vsingleton</span> <span class="text-[#5B9F9B]">Consulting</span>
         </a>
       </div>
 
       <div class="hidden md:flex items-center space-x-8">
-        <a href="#services" class="text-gray-700 hover:text-[#2EA2A1] transition-colors font-medium">Services</a>
-        <a href="#process" class="text-gray-700 hover:text-[#2EA2A1] transition-colors font-medium">Process</a>
-        <a href="#testimonials" class="text-gray-700 hover:text-[#2EA2A1] transition-colors font-medium">Testimonials</a>
-        <a href="#contact" class="bg-[#2EA2A1] text-white px-6 py-3 rounded-lg hover:bg-[#258584] transition-colors font-medium">
+        <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors">Services</a>
+        <a href="#process" class="text-gray-600 hover:text-gray-900 transition-colors">Process</a>
+        <a href="#work" class="text-gray-600 hover:text-gray-900 transition-colors">Work</a>
+        <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors">Testimonials</a>
+        <a href="#contact" class="bg-[#5B9F9B] text-white px-6 py-2.5 rounded-full hover:bg-[#4d8682] transition-colors">
           Get Started
         </a>
       </div>
 
-      <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-[#2EA2A1] transition-colors">
+      <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-[#5B9F9B] transition-colors">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
@@ -30,16 +31,19 @@
 
   <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
     <div class="px-4 pt-2 pb-4 space-y-2">
-      <a href="#services" class="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#2EA2A1] rounded-lg transition-colors font-medium">
+      <a href="#services" class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-lg transition-colors">
         Services
       </a>
-      <a href="#process" class="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#2EA2A1] rounded-lg transition-colors font-medium">
+      <a href="#process" class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-lg transition-colors">
         Process
       </a>
-      <a href="#testimonials" class="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#2EA2A1] rounded-lg transition-colors font-medium">
+      <a href="#work" class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-lg transition-colors">
+        Work
+      </a>
+      <a href="#testimonials" class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-lg transition-colors">
         Testimonials
       </a>
-      <a href="#contact" class="block px-4 py-3 bg-[#2EA2A1] text-white text-center rounded-lg hover:bg-[#258584] transition-colors font-medium">
+      <a href="#contact" class="block px-4 py-3 bg-[#5B9F9B] text-white text-center rounded-full hover:bg-[#4d8682] transition-colors">
         Get Started
       </a>
     </div>
