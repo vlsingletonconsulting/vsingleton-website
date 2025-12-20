@@ -11,23 +11,23 @@ import '../styles/global.css';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Vsingleton Consulting | Strategy, Development & Growth</title>
-		<meta name="description" content="Transform your business with expert consulting in strategy, web development, branding, and growth.">
+		<meta name="description" content="Transform your business with expert consulting in strategy, web development, agile coaching, and growth.">
 	</head>
 	<body>
 		<Navigation />
 
 		<main class="pt-20">
-			<section id="hero" class="relative bg-gradient-to-br from-gray-50 via-white to-teal-50 py-28 md:py-40">
+			<section id="hero" class="relative bg-gradient-to-br from-gray-50 via-white to-teal-50 py-24 md:py-32">
 				<div class="w-full mx-auto px-8 sm:px-12 lg:px-16">
-					<div class="text-center max-w-4xl mx-auto">
-						<h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight text-gray-900">
-							Transform Your Digital Presence
+					<div class="text-center max-w-4xl mx-auto mb-16">
+						<h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-900">
+							Transform Your Business with Expert Consulting
 						</h1>
 						<p class="text-xl md:text-2xl mb-12 text-gray-600 max-w-3xl mx-auto leading-relaxed">
 							Strategy, development, and growth solutions for modern businesses
 						</p>
 						<div class="flex flex-col sm:flex-row gap-6 justify-center">
-							<a href="/contact" class="inline-flex items-center justify-center bg-[#5B9F9B] text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-[#4d8682] transition-colors shadow-lg hover:shadow-xl">
+							<a href="/contact" class="inline-flex items-center justify-center bg-[#2EA2A1] text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-[#258584] transition-colors shadow-lg hover:shadow-xl">
 								Get Started
 							</a>
 							<a href="/services" class="inline-flex items-center justify-center bg-white text-gray-900 px-12 py-4 rounded-full text-lg font-semibold border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50 transition-colors shadow-md hover:shadow-lg">
@@ -35,55 +35,241 @@ import '../styles/global.css';
 							</a>
 						</div>
 					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-20">
+						<div class="text-center p-6 bg-white rounded-2xl shadow-md">
+							<div class="text-4xl md:text-5xl font-bold text-[#2EA2A1] mb-2">150+</div>
+							<div class="text-gray-600 font-medium">Projects Delivered</div>
+						</div>
+						<div class="text-center p-6 bg-white rounded-2xl shadow-md">
+							<div class="text-4xl md:text-5xl font-bold text-[#2EA2A1] mb-2">98%</div>
+							<div class="text-gray-600 font-medium">Client Satisfaction</div>
+						</div>
+						<div class="text-center p-6 bg-white rounded-2xl shadow-md">
+							<div class="text-4xl md:text-5xl font-bold text-[#2EA2A1] mb-2">$50M+</div>
+							<div class="text-gray-600 font-medium">Revenue Generated</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
-			<section id="services" class="py-32 bg-slate-900">
+			<section id="services" class="py-24 bg-white">
 				<div class="w-full mx-auto px-8 sm:px-12 lg:px-16">
-					<div class="text-center max-w-3xl mx-auto mb-20">
-						<h2 class="text-5xl md:text-6xl font-bold mb-6 text-white">Services</h2>
+					<div class="text-center max-w-3xl mx-auto mb-16">
+						<h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Our Services</h2>
+						<p class="text-xl text-gray-600">Comprehensive solutions to drive your business forward</p>
 					</div>
 
-					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-						<div class="text-center">
-							<h3 class="text-2xl font-bold mb-3 text-white">Strategy</h3>
-							<p class="text-gray-400 leading-relaxed">Digital roadmaps that drive growth</p>
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+						<div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-shadow">
+							<div class="w-12 h-12 bg-[#2EA2A1] rounded-xl flex items-center justify-center mb-6">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+								</svg>
+							</div>
+							<h3 class="text-2xl font-bold mb-4 text-gray-900">Strategy & Consulting</h3>
+							<p class="text-gray-600 leading-relaxed">Data-driven strategies and digital transformation planning to align with your business goals</p>
 						</div>
 
-						<div class="text-center">
-							<h3 class="text-2xl font-bold mb-3 text-white">Development</h3>
-							<p class="text-gray-400 leading-relaxed">Web applications that perform</p>
+						<div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-shadow">
+							<div class="w-12 h-12 bg-[#2EA2A1] rounded-xl flex items-center justify-center mb-6">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+								</svg>
+							</div>
+							<h3 class="text-2xl font-bold mb-4 text-gray-900">Web Development</h3>
+							<p class="text-gray-600 leading-relaxed">High-performance web applications built with modern technologies and best practices</p>
 						</div>
 
-						<div class="text-center">
-							<h3 class="text-2xl font-bold mb-3 text-white">Design</h3>
-							<p class="text-gray-400 leading-relaxed">Brand identity that resonates</p>
+						<div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-shadow">
+							<div class="w-12 h-12 bg-[#2EA2A1] rounded-xl flex items-center justify-center mb-6">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+								</svg>
+							</div>
+							<h3 class="text-2xl font-bold mb-4 text-gray-900">Agile Coaching</h3>
+							<p class="text-gray-600 leading-relaxed">Expert guidance in agile methodologies to improve team collaboration and delivery</p>
 						</div>
 
-						<div class="text-center">
-							<h3 class="text-2xl font-bold mb-3 text-white">Growth</h3>
-							<p class="text-gray-400 leading-relaxed">Data-driven optimization</p>
+						<div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-shadow">
+							<div class="w-12 h-12 bg-[#2EA2A1] rounded-xl flex items-center justify-center mb-6">
+								<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+								</svg>
+							</div>
+							<h3 class="text-2xl font-bold mb-4 text-gray-900">Launch & Growth</h3>
+							<p class="text-gray-600 leading-relaxed">Data-driven optimization and performance strategies to maximize your ROI</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
-	
-	
-			<section id="contact" class="py-40 bg-slate-900">
+			<section id="process" class="py-24 bg-gray-50">
+				<div class="w-full mx-auto px-8 sm:px-12 lg:px-16">
+					<div class="text-center max-w-3xl mx-auto mb-16">
+						<h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Our Process</h2>
+						<p class="text-xl text-gray-600">A proven approach to delivering exceptional results</p>
+					</div>
+
+					<div class="max-w-5xl mx-auto">
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+							<div class="relative pl-16">
+								<div class="absolute left-0 top-0 w-12 h-12 bg-[#2EA2A1] text-white rounded-full flex items-center justify-center text-xl font-bold">1</div>
+								<h3 class="text-2xl font-bold mb-3 text-gray-900">Discovery</h3>
+								<p class="text-gray-600 leading-relaxed">We start by understanding your business goals, challenges, and target audience to create a tailored strategy.</p>
+							</div>
+
+							<div class="relative pl-16">
+								<div class="absolute left-0 top-0 w-12 h-12 bg-[#2EA2A1] text-white rounded-full flex items-center justify-center text-xl font-bold">2</div>
+								<h3 class="text-2xl font-bold mb-3 text-gray-900">Strategy</h3>
+								<p class="text-gray-600 leading-relaxed">Develop a comprehensive roadmap with clear milestones, timelines, and deliverables aligned with your objectives.</p>
+							</div>
+
+							<div class="relative pl-16">
+								<div class="absolute left-0 top-0 w-12 h-12 bg-[#2EA2A1] text-white rounded-full flex items-center justify-center text-xl font-bold">3</div>
+								<h3 class="text-2xl font-bold mb-3 text-gray-900">Execution</h3>
+								<p class="text-gray-600 leading-relaxed">Implement solutions using best practices and modern technologies while maintaining close collaboration with your team.</p>
+							</div>
+
+							<div class="relative pl-16">
+								<div class="absolute left-0 top-0 w-12 h-12 bg-[#2EA2A1] text-white rounded-full flex items-center justify-center text-xl font-bold">4</div>
+								<h3 class="text-2xl font-bold mb-3 text-gray-900">Optimize</h3>
+								<p class="text-gray-600 leading-relaxed">Continuously monitor, analyze, and refine to ensure sustained growth and maximum performance.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials" class="py-24 bg-white">
+				<div class="w-full mx-auto px-8 sm:px-12 lg:px-16">
+					<div class="text-center max-w-3xl mx-auto mb-16">
+						<h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Client Success Stories</h2>
+						<p class="text-xl text-gray-600">Hear from businesses we've helped transform</p>
+					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+						<div class="bg-gray-50 p-8 rounded-2xl">
+							<div class="flex items-center mb-4">
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+							</div>
+							<p class="text-gray-600 mb-6 leading-relaxed">"Working with Vsingleton Consulting transformed our digital presence. Their strategic approach and technical expertise helped us increase revenue by 300%."</p>
+							<div class="font-semibold text-gray-900">Sarah Johnson</div>
+							<div class="text-sm text-gray-500">CEO, TechStart Inc</div>
+						</div>
+
+						<div class="bg-gray-50 p-8 rounded-2xl">
+							<div class="flex items-center mb-4">
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+							</div>
+							<p class="text-gray-600 mb-6 leading-relaxed">"The agile coaching we received completely changed how our team operates. We're now delivering features twice as fast with better quality."</p>
+							<div class="font-semibold text-gray-900">Michael Chen</div>
+							<div class="text-sm text-gray-500">CTO, Innovation Labs</div>
+						</div>
+
+						<div class="bg-gray-50 p-8 rounded-2xl">
+							<div class="flex items-center mb-4">
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+								<svg class="w-5 h-5 text-[#EED023]" fill="currentColor" viewBox="0 0 20 20">
+									<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+								</svg>
+							</div>
+							<p class="text-gray-600 mb-6 leading-relaxed">"Exceptional service from start to finish. Their development team built us a platform that scales beautifully and our customers love it."</p>
+							<div class="font-semibold text-gray-900">Emily Rodriguez</div>
+							<div class="text-sm text-gray-500">Founder, GrowthPath</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="cta" class="py-24 bg-gradient-to-br from-[#2EA2A1] to-[#258584]">
 				<div class="max-w-4xl mx-auto px-8 text-center">
-					<h2 class="text-5xl md:text-7xl font-bold mb-12 text-white">Let's Work Together</h2>
-					<a href="/contact" class="inline-flex items-center justify-center bg-[#5B9F9B] text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-[#4d8682] transition-colors shadow-lg hover:shadow-xl">
+					<h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Transform Your Business?</h2>
+					<p class="text-xl text-white/90 mb-10 max-w-2xl mx-auto">Let's discuss how we can help you achieve your goals and drive sustainable growth.</p>
+					<a href="/contact" class="inline-flex items-center justify-center bg-white text-[#2EA2A1] px-12 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl">
 						Get in Touch
 					</a>
 				</div>
 			</section>
 		</main>
 
-		<footer class="bg-gray-900 text-white py-12">
+		<footer class="bg-gray-900 text-white py-16">
 			<div class="w-full mx-auto px-8 sm:px-12 lg:px-16">
-				<div class="text-center text-gray-400 text-sm">
-					<p>&copy; {new Date().getFullYear()} Vsingleton Consulting</p>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+					<div>
+						<h3 class="text-xl font-bold mb-4">Vsingleton Consulting</h3>
+						<p class="text-gray-400 leading-relaxed">Transform your business with expert consulting in strategy, development, and growth.</p>
+					</div>
+					<div>
+						<h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+						<ul class="space-y-2">
+							<li><a href="/about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+							<li><a href="/services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+							<li><a href="/contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="text-lg font-semibold mb-4">Connect</h4>
+						<div class="flex space-x-4">
+							<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#2EA2A1] transition-colors">
+								<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+									<path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+								</svg>
+							</a>
+							<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#2EA2A1] transition-colors">
+								<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+									<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+								</svg>
+							</a>
+							<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#2EA2A1] transition-colors">
+								<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+									<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+					<p>&copy; {new Date().getFullYear()} Vsingleton Consulting. All rights reserved.</p>
 				</div>
 			</div>
 		</footer>
